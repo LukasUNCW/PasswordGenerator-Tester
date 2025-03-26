@@ -17,7 +17,7 @@ with open('words.txt', 'r', encoding='utf-8') as f:
 
 specials = ['!', '?', '@', '#', '$', '%', '&', '*']
 
-def create_password(num_words=2, num_numbers=10, num_special=2):
+def create_password(num_words=2, num_numbers=4, num_special=1):
     if not words:
         print("Word list is empty. Exiting...")
         return ""
